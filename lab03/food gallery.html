@@ -1,0 +1,104 @@
+<body bgcolor="#FFE4E1"></body><!--สีพื้นหลัง-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="ccs/mystyle.css">
+    </head>
+    <style>
+        div.gallery {
+          border: 1px solid rgb(151, 0, 0);
+        }
+        
+        div.gallery:hover {
+          border: 1px solid rgb(151, 0, 0);
+        }
+        
+        div.gallery img {
+          width: 100%;
+          height: auto;
+        }
+        
+        div.desc {
+          padding: 15px;
+          text-align: center;
+        }
+        
+        * {
+          box-sizing: border-box;
+        }
+        
+        .responsive {
+          padding: 0 6px;
+          float: left;
+          width: 24.99999%;
+        }
+        
+        @media only screen and (max-width: 700px) {
+          .responsive {
+            width: 49.99999%;
+            margin: 6px 0;
+          }
+        }
+        
+        @media only screen and (max-width: 500px) {
+          .responsive {
+            width: 100%;
+          }
+        }
+        
+        .clearfix:after {
+          content: "";
+          display: table;
+          clear: both;
+        }
+        </style>
+        </head>
+        <body>
+        
+        <h2>Food gallery</h2>
+        <h4>4 เชนร้านอาหารญี่ปุ่น ดังและสาขาแม่</h4>
+        <h5>เป็นเรื่องที่น่ายินดีสำหรับคนรักการกินอาหารญี่ปุ่นอย่างเราที่ทุกวันนี้ไม่ว่าจะเดินเข้าห้างหรือเข้าตามตรอกซอยใดก็มักจะเจอะเจอกับร้านอาหารญี่ปุ่น
+            หลากหลายแบรนด์ ส่วนหนึ่งที่สะท้อนความสำเร็จของธุรกิจร้านอาหารญี่ปุ่นก็คือจำนวนสาขาที่ขยายไปในหลายพื้นที่ โดยคราวนี้เราจะแนะนำ เชนร้านอาหารญี่ปุ่น 
+            ที่โด่งดังในประเทศไทย แต่จะขอพาทุกคนวาร์ปไปกินสาขาแรกหรือสาขาแม่ในญี่ปุ่นแทน เผื่อไปเที่ยวญี่ปุ่นทริปหน้าทุกคนอยากจะลิ้มลองว่าร้านโปรดเหล่านี้มีส่วน
+            เหมือนหรือต่างอย่างไรกับที่เราคุ้นเคยในไทยกัน
+        </h5>
+        
+        <div class="responsive">
+          <div class="gallery">
+            <a target="_blank" href="Yoshinoya.jpg">
+              <img src="images/Yoshinoya.jpg" alt="Yoshinoya" width="400" height="400">
+            </a>
+            <div class="desc">เริ่มกันที่ร้านข้าวหน้าเนื้อ (Gyudon) เมนูเรียบง่ายที่ราคาน่าคบและอยู่ท้องนั่นคือโยชิโนยะ ถือกำเนิดขึ้นในปี ค.ศ. 1899 ที่ตลาดปลาในย่านนิฮอนบาชิ (Nihonbashi) กรุงโตเกียว </div>
+          </div>
+        </div>
+
+        <div class="responsive">
+          <div class="gallery">
+            <a target="_blank" href="Hachiban Ramen.jpg">
+              <img src="images/Hachiban Ramen.jpg" alt="Hachiban Ramen" width="400" height="400">
+            </a>
+            <div class="desc">พูดถึงร้านราเมนจากญี่ปุ่นที่คนไทยคุ้นเคยกันมากที่สุด คงปฏิเสธไม่ได้ว่าก็ต้องฮะจิบัง ราเมน แต่น้อยคนที่จะรู้ว่าต้นกำเนิดของฮะจิบังอยู่ที่เมืองชนบทอย่างเมืองคากะ (Kaga) ในจังหวัดอิชิกาวะ</div>
+          </div>
+        </div>
+        
+        <div class="responsive">
+          <div class="gallery">
+            <a target="_blank" href="Yayoi.jpg">
+              <img src="images/Yayoi.jpg" alt="Yayoi" width="400" height="400">
+            </a>
+            <div class="desc">สำหรับ เชนร้านอาหารญี่ปุ่น อย่างยาโยอิที่เราคุ้นเคยกันนั้น คนญี่ปุ่นจะเรียกว่า Yayoiken หรือป้ายหน้าร้านที่ญี่ปุ่นก็จะเขียนภาษาอังกฤษว่า Teishoku Yayoi ถือกำเนิดขึ้นใน ค.ศ. 1989 ที่จังหวัดฟุกุโอกะ</div>
+          </div>
+        </div>
+        
+        <div class="responsive">
+          <div class="gallery">
+            <a target="_blank" href="CoCoICHIBANYA.jpg">
+              <img src="images/CoCoICHIBANYA.jpg" alt="CoCoICHIBANYA" width="400" height="400">
+            </a>
+            <div class="desc">มาต่อกันที่ร้านข้าวราดแกงกะหรี่สไตล์ญี่ปุ่นที่ใครๆ ก็รู้จักอย่างโคโค่ อิฉิบันยะ จุดเด่นที่ไม่ว่าสาขาไหนในโลกเหมือนกันตามที่เราอยากกินได้ตามใจชอบ และมีจำนวนสาขามากที่สุดในประเทศญี่ปุ่น</div>
+          </div>
+        </body>
+        </html>
+
